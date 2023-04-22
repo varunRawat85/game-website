@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google fonts cdnjs -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dongle&family=Dynalight&family=Josefin+Sans&family=Lato:wght@300&family=Marcellus+SC&family=Open+Sans:wght@300&family=Roboto+Condensed&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- page borders -->
+    <div class="page-border ">
+        <!-- top border -->
+        <div class="border-t fixed-top top-0 "></div>
+        <!-- left border -->
+        <div class="border-l  "></div>
+        <!-- right border -->
+        <div class="border-r "></div>
+        <!-- bottom border -->
+        <div class="border-b fixed-bottom bottom-0"></div>
+    </div>
+
+    <!-- =====first navbar===== -->
+    <ul class="nav p-2 px-5 d-flex">
+        <li class="nav-item  m-1  drop_1">
+            <a class="nav-link text-white net " href="">USA<svg xmlns="http://www.w3.org/2000/svg" width="16"
+                    height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                    <path
+                        d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                </svg></a>
+            <ul class="innerdrop_1 bg-dark d-none position-absolute ">
+                <li class="p-2"><a href="" class="text-decoration-none text-white">USA</a></li>
+                <li class="p-2"><a href="" class="text-decoration-none text-white">RUSSIA</a></li>
+                <li class="p-2"><a href="" class="text-decoration-none text-white">UNITED KINGDOM</a></li>
+                <li class="p-2"><a href="" class="text-decoration-none text-white">FRANCE</a></li>
+                <li class="p-2"><a href="" class="text-decoration-none text-white">SPAIN</a></li>
+                <li class="p-2"><a href="" class="text-decoration-none text-white">GERMANY</a></li>
+            </ul>
+        </li>
+        <li class="nav-item  m-1 ">
+            <a class="nav-link text-white net " href="">PRIVACY</a>
+        </li>
+        <li class="nav-item  m-1 ">
+            <a class="nav-link text-white net " href="">CONTACT</a>
+        </li>
+    </ul>
+
+
+    <!-- =====second-navbar for mobile==== -->
+    <!-- <div class="navbar navbar-expand-lg navbar-dark bg-dark position-sticky top-0 p-3">
+        <div class="container">
+            <a href="" class="navbar-brand text-white fs-2 fw-bold">GODLIKE</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mobile">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mobile">
+                <ul class="navbar-nav ">
+                    <li class="nav-item ">
+                        <a href="" class="nav-link text-white net mx-2">HOME</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="" class="nav-link text-white net mx-2">FEATURES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link text-white net mx-2">ELEMENTS</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="" class="nav-link text-white net mx-2">NEWS</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="" class="nav-link text-white net mx-2">SOCIAL</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="" class="nav-link text-white net mx-2">STORE</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="" class="nav-link text-white net mx-2">MEDIA</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div> -->
+
+
+    <!-- =====second navbar for big screen==== -->
+    <div class="navbar  navbar-expand-lg navbar-dark bg-dark position-sticky top-0 p-3">
+        <div class="container">
+            <a href="" class="navbar-brand text-white fs-2 fw-bold">GODLIKE</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#touch">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="touch">
+                <ul class="navbar-nav ">
+                    <li class="nav-item  drop_2">
+                        <a href="" class="nav-link text-white net mx-2">HOME<svg xmlns="http://www.w3.org/2000/svg"
+                                width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                                <path
+                                    d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                            </svg></a>
+                        <ul class="innerdrop_2 d-none bg-dark position-absolute p-3">
+                            <li class="p-2"><a href="" class="text-decoration-none text-white">LANDING</a></li>
+                            <li class="p-2"><a href="" class="text-decoration-none text-white">MAIN</a></li>
+                            <li class="p-2"><a href="" class="text-decoration-none text-white"> GAME PROMO</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item drop_3 ">
+                        <a href="" class="nav-link text-white net mx-2">FEATURES<svg xmlns="http://www.w3.org/2000/svg"
+                                width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                                <path
+                                    d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                            </svg></a>
+                        <ul class="innerdrop_3 d-none bg-dark position-absolute p-3">
+                            <li class="p-2 undrop_1"><a href="" class="text-decoration-none text-white">PAGES<svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-three-dots" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                                    </svg></a>
+                                <ul class="inul_1 d-none bg-dark position-absolute">
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white">FORUM</a></li>
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white">CONTACT</a></li>
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white">COMING SOON</a>
+                                    </li>
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white">404</a></li>
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white">AGE CHECK</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="p-2 undrop_2"><a href="" class="text-decoration-none text-white">NAVIGATIONS<svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-three-dots" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                                    </svg></a>
+                                <ul class="inul_2 d-none bg-dark position-absolute">
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white">DEFAULT</a></li>
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white">DEFAULT
+                                            TRANSPARENT</a></li>
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white">MAIN TOP ONLY</a>
+                                    </li>
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white">MAIN SIDE</a>
+                                    </li>
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white">MAIN TOP +
+                                            FULLSCREEN</a></li>
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white"> FULL SCREEN +
+                                            SIDE</a></li>
+                                </ul>
+                            </li>
+                            <li class="p-2 undrop_3"><a href="" class="text-decoration-none text-white">HEADERS<svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-three-dots" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                                    </svg></a>
+                                <ul class="inul_3 d-none p-3 bg-dark position-absolute">
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white">SIZE DEFAULT</a>
+                                    </li>
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white">SIZE SMALL</a>
+                                    </li>
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white">SIZE MID</a></li>
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white">SIZE LARGE</a>
+                                    </li>
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white">SIZE FULL</a>
+                                    </li>
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white">VEDIO</a></li>
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white">VEDIO PLAIN</a>
+                                    </li>
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white">NO HEADER</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="p-2"><a href="" class="text-decoration-none text-white">WIDGETS</a></li>
+                            <li class="p-2"><a href="" class="text-decoration-none text-white">DOCUMENTATION</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item drop_4 ">
+                        <a href="" class="nav-link text-white net  mx-2">ELEMENTS<svg xmlns="http://www.w3.org/2000/svg"
+                                width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                                <path
+                                    d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                            </svg></a>
+                        <div class="innerdrop_4  mx-5  d-none position-absolute p-3">
+                            <ul class="mostinner_drop">
+                                <li class="p-2"><a href="" class="text-decoration-none text-white">CAROUSELS</a></li>
+                                <li class="p-2"><a href="" class="text-decoration-none text-white">IMAGE BOXES</a></li>
+                                <li class="p-2"><a href="" class="text-decoration-none text-white">ICON BOXES</a></li>
+                                <li class="p-2"><a href="" class="text-decoration-none text-white">COUNTERS</a></li>
+                                <li class="p-2"><a href="" class="text-decoration-none text-white">BLOCK QUOTES</a></li>
+                                <li class="p-2"><a href="" class="text-decoration-none text-white">TESTIMONIALS</a></li>
+                                <li class="p-2"><a href="" class="text-decoration-none text-white">TEAM MEMBERS</a></li>
+                            </ul>
+                            <ul class="mostinner_drop ">
+                                <li class="p-2"><a href="" class="text-decoration-none text-white">VEDIO BLOCKS</a></li>
+                                <li class="p-2"><a href="" class="text-decoration-none text-white">GIF ANIMATIONS</a>
+                                </li>
+                                <li class="p-2"><a href="" class="text-decoration-none text-white">AJAX FORMS</a></li>
+                                <li class="p-2"><a href="" class="text-decoration-none text-white">COUNTDOWN</a></li>
+                                <li class="p-2"><a href="" class="text-decoration-none text-white">TYPED TEXT</a></li>
+                                <li class="p-2"><a href="" class="text-decoration-none text-white">TABS</a></li>
+                                <li class="p-2"><a href="" class="text-decoration-none text-white">ACCORDIONS</a></li>
+                            </ul>
+                            <ul class="mostinner_drop ">
+                                <li class="p-2"><a href="" class="text-decoration-none text-white">INFO BOXES /
+                                        ALERTS</a></li>
+                                <li class="p-2"><a href="" class="text-decoration-none text-white">CALL TO ACTION
+                                        BLOCKS</a></li>
+                                <li class="p-2"><a href="" class="text-decoration-none text-white">PROGRESS BAR</a></li>
+                                <li class="p-2"><a href="" class="text-decoration-none text-white">PAGINATION</a></li>
+                                <li class="p-2"><a href="" class="text-decoration-none text-white">PRICING TABLES</a>
+                                </li>
+                                <li class="p-2"><a href="" class="text-decoration-none text-white">MODALS</a></li>
+
+                            </ul>
+                            <ul class="mostinner_drop ">
+                                <li class="p-2"><a href="" class="text-decoration-none text-white">TYPOGRAPHY</a></li>
+                                <li class="p-2"><a href="" class="text-decoration-none text-white">TITLES(HEADINGS)</a>
+                                </li>
+                                <li class="p-2"><a href="" class="text-decoration-none text-white">DROPCAPS</a></li>
+                                <li class="p-2"><a href="" class="text-decoration-none text-white">COLORS</a></li>
+                                <li class="p-2"><a href="" class="text-decoration-none text-white">BUTTONS</a></li>
+                                <li class="p-2"><a href="" class="text-decoration-none text-white">BREADCRUMBS</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item drop_5 ">
+                        <a href="" class="nav-link text-white net mx-2">NEWS<svg xmlns="http://www.w3.org/2000/svg"
+                                width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                                <path
+                                    d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                            </svg></a>
+                        <ul class="innerdrop_5 d-none bg-dark position-absolute p-3">
+                            <li class="p-2"><a href="" class="text-decoration-none text-white">LIST</a></li>
+                            <li class="p-2"><a href="" class="text-decoration-none text-white">CLASSIC LIST</a></li>
+                            <li class="p-2"><a href="" class="text-decoration-none text-white">GRID 2 COLUMNS</a></li>
+                            <li class="p-2"><a href="" class="text-decoration-none text-white">GRID 3 COLUMNS</a></li>
+                            <li class="p-2 undrop_4"><a href="" class="text-decoration-none text-white">SINGLE POST<svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-three-dots" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                                    </svg></a>
+                                <ul class="inul_4 d-none bg-dark position-absolute">
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white">SINGLE IMAGE</a>
+                                    </li>
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white">SINGLE AUDIO</a>
+                                    </li>
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white">SINGLE VEDIO</a>
+                                    </li>
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white">SINGLE
+                                            GALLERY</a></li>
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white">SINGLE
+                                            BLOCKQUOTE</a></li>
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white">SINGLE
+                                            STANDARD</a></li>
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white">SINGLE BIG
+                                            CONTENT EXAMPLE</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item drop_6 ">
+                        <a href="" class="nav-link text-white net mx-2">SOCIAL<svg xmlns="http://www.w3.org/2000/svg"
+                                width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                                <path
+                                    d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                            </svg></a>
+                        <ul class="innerdrop_6 d-none bg-dark position-absolute p-3">
+                            <li class="p-2 undrop_5"><a href="" class="text-decoration-none text-white">USER<svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-three-dots" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                                    </svg></a>
+                                <ul class="inul_5 d-none bg-dark position-absolute">
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white">ACTIVITY</a></li>
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white">NOTIFICATIONS</a>
+                                    </li>
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white">MESSAGES</a></li>
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white">MESSAGES
+                                            SINGLE</a></li>
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white">MESSAGES
+                                            COMPOSE</a></li>
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white">FREINDS</a></li>
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white">SETTINGS</a></li>
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white">SETTINGS
+                                            EMAIL</a></li>
+                                </ul>
+                            </li>
+                            <li class="p-2 undrop_6"><a href="" class="text-decoration-none text-white">GROUP<svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-three-dots" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                                    </svg></a>
+                                <ul class="inul_6 d-none bg-dark position-absolute">
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white">ACTIVITY</a></li>
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white">MEMBERS</a></li>
+                                    <li class="p-2"><a href="" class="text-decoration-none text-white">MANAGE</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item drop_7 ">
+                        <a href="" class="nav-link text-white net mx-2">STORE<svg xmlns="http://www.w3.org/2000/svg"
+                                width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                                <path
+                                    d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                            </svg></a>
+                        <ul class="innerdrop_7 d-none bg-dark position-absolute p-3">
+                            <li class="p-2"><a href="" class="text-decoration-none text-white">STORE</a></li>
+                            <li class="p-2"><a href="" class="text-decoration-none text-white">SINGLE PRODUCT</a></li>
+                            <li class="p-2"><a href="" class="text-decoration-none text-white"> CART</a></li>
+                            <li class="p-2"><a href="" class="text-decoration-none text-white">CHECKOUT</a></li>
+                            <li class="p-2"><a href="" class="text-decoration-none text-white">ACCOUNT</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item drop_8 ">
+                        <a href="" class="nav-link text-white net mx-2">MEDIA<svg xmlns="http://www.w3.org/2000/svg"
+                                width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                                <path
+                                    d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                            </svg></a>
+                        <ul class="innerdrop_8 d-none bg-dark position-absolute p-3">
+                            <li class="p-2"><a href="" class="text-decoration-none text-white">GALLERY 1 COLUMN</a></li>
+                            <li class="p-2"><a href="" class="text-decoration-none text-white">GALLERY 2 COLUMNS</a>
+                            </li>
+                            <li class="p-2"><a href="" class="text-decoration-none text-white">GALLERY 3 COLUMNS</a>
+                            </li>
+                            <li class="p-2"><a href="" class="text-decoration-none text-white">VEDIO 1 COLUMN</a></li>
+                            <li class="p-2"><a href="" class="text-decoration-none text-white">VEDIO 2 COLUMNS</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- =====main div of starting==== -->
+    <div class="first text-center">
+        <div class="first_inner position-relative">
+            <div class="display-3  text-white mb-3 fw-bold ">GOD LIKE</div>
+            <div class="in_1 text-white ">An atmospheric gaming HTML template based on Bootstrap 4</div>
+            <div class="buttons mt-5 ">
+                <a href="https://themeforest.net/item/godlike-the-game-template/17166433?irgwc=1&clickid=3TlzgnVCexyIWZQQ6iWsNTF3UkD0YpUx%3AWwc1Y0&iradid=275988&irpid=1338295&iradtype=ONLINE_TRACKING_LINK&irmptype=mediapartner&mp_value1=&utm_campaign=af_impact_radius_1338295&utm_medium=affiliate&utm_source=impact_radius"
+                    target="_blank"><input type="button" class=" fro bg-dark  px-4 p-2 fw-bold" value="PURCHASE"></a>
+                <a href="#demos"> <input type="button" class="endbtn bg-dark text-white px-4 p-2 fw-bold "
+                        value="SEE DEMOS"></a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ====second div==== -->
+    <div class="main p-5 " id="demos">
+        <div class="container  ">
+            <div class="row">
+
+                <!-- ====main demo ==== -->
+                <div class="col-sm-12 col-lg-6 g-0 mt-5 mb-3  g-sm-4 g-md-5  position-relative">
+                    <a href="" class="inner_img">
+                        <img width="98%" src="images/demo-main.jpg" alt="">
+                        <div class="int_1 d-none  fs-3 text-white position-absolute INT ">
+                            MAIN DEMO
+                        </div>
+                    </a>
+                </div>
+
+                <!-- ====game promo demo ==== -->
+                <div class="col-sm-12 col-lg-6 g-0 mt-5  g-sm-4 g-md-5 position-relative">
+                    <a href="" class="inner_img ">
+                        <img width="98%" src="images/demo-game-promo.jpg" alt="">
+                        <div class="int_2 d-none  fs-3 text-white position-absolute INT ">
+                            GAME PROMO DEMO
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ====third main div==== -->
+    <div class="main_1 bg-dark pt-5  ">
+        <div class="inner_main d-flex text-white   pt-5  justify-content-center align-items-center fs-2 ">ADDITIONAL
+            PAGES
+        </div>
+        <div class="container">
+
+            <!-- ====first row==== -->
+            <div class="row mt-4">
+
+                <!-- ====shop column==== -->
+                <div class="col-sm-12 col-lg-6 mt-5 g-0 g-sm-4 g-md-5 position-relative">
+                    <a href="" class="inner_img ">
+                        <img width="100%" src="images/demo-store.jpg" alt="">
+                        <div class="int_3 d-none  fs-4 text-white position-absolute INT ">
+                            SHOP
+                        </div>
+                    </a>
+                </div>
+
+                <!-- ====product column==== -->
+                <div class="col-sm-12 col-lg-6 mt-5 g-0 g-sm-4 g-md-5 position-relative">
+                    <a href="" class="inner_img ">
+                        <img width="100%" src="images/demo-store-single.jpg" alt="">
+                        <div class="int_4 d-none  fs-4 text-white position-absolute INT ">
+                            PRODUCT
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- ====second row==== -->
+            <div class="row mt-4 ">
+
+                <!-- ====social network column==== -->
+                <div class="col-sm-12 col-lg-6 mt-5 g-0 g-sm-4 g-md-5 position-relative">
+                    <a href="" class="inner_img ">
+                        <img width="100%" src="images/demo-social-network.jpg" alt="">
+                        <div class="int_5 d-none  fs-4 text-white position-absolute INT ">
+                            SOCIAL NETWORK
+                        </div>
+                    </a>
+                </div>
+
+                <!-- ====blog post column==== -->
+                <div class="col-sm-12 col-lg-6 mt-5 g-0 g-sm-4 g-md-5 position-relative">
+                    <a href="" class="inner_img ">
+                        <img width="100%" src="images/demo-blog-post.jpg" alt="">
+                        <div class="int_6 d-none  fs-4 text-white position-absolute INT ">
+                            BLOG POST
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- ====third row==== -->
+            <div class="row mt-4 ">
+
+                <!-- ====blog grid column==== -->
+                <div class="col-sm-12 col-lg-6 mt-5 g-0 g-sm-4 g-md-5 position-relative">
+                    <a href="" class="inner_img ">
+                        <img width="100%" src="images/demo-blog-grid.jpg" alt="">
+                        <div class="int_7 d-none  fs-4 text-white position-absolute INT ">
+                            BLOG GRID
+                        </div>
+                    </a>
+                </div>
+
+                <!-- ====blog list column==== -->
+                <div class="col-sm-12 col-lg-6 mt-5 g-0 g-sm-4 g-md-5 position-relative">
+                    <a href="" class="inner_img ">
+                        <img width="100%" src="images/demo-blog-list.jpg" alt="">
+                        <div class="int_8 d-none  fs-4 text-white position-absolute INT ">
+                            BLOG LIST
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- ====fourth row==== -->
+            <div class="row mt-4 ">
+
+                <!-- ====coming soon column==== -->
+                <div class="col-sm-12 col-lg-6 mt-5 g-0 g-sm-4 g-md-5 position-relative">
+                    <a href="" class="inner_img ">
+                        <img width="100%" src="images/demo-coming-soon.jpg" alt="">
+                        <div class="int_9 d-none  fs-4 text-white position-absolute INT ">
+                            COMING SOON
+                        </div>
+                    </a>
+                </div>
+
+                <!-- ====age check column==== -->
+                <div class="col-sm-12 col-lg-6 mt-5 g-0 g-sm-4 g-md-5 position-relative">
+                    <a href="" class="inner_img ">
+                        <img width="100%" src="images/demo-age-check.jpg" alt="">
+                        <div class="int_10 d-none  fs-4 text-white position-absolute INT ">
+                            AGE CHECK
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- ====4th main div==== -->
+        <div class="main_2 mt-5   text-white">
+            <div class="container p-5">
+
+                <!-- ====row==== -->
+                <div class="row p-5">
+
+                    <!-- ====column==== -->
+                    <div class="col-12 fs-1  p-3 text-center fw-bold">SUBSCRIBE TO OUR NEWSLETTER</div>
+                </div>
+
+                <!-- ====form===== -->
+                <div class="input-group  ">
+                    <input type="email" class="form-control bg-dark mail text-white " placeholder="Email*">
+                    <input type="submit" class="border-white bg-dark text-white py-1  px-3 fw-bold" value="SUBSCRIBE">
+                </div>
+                <small class="titu ">We'll never share your email with anyone else.</small>
+            </div>
+        </div>
+        <!-- ====footer image==== -->
+        <img src="images/footer-corner.png" alt="">
+
+        <!-- ====5th main div==== -->
+        <div class="container-fluid  foot pb-5">
+            <!-- ====inner 1st div==== -->
+            <div class="inner_main2 px-4">
+
+                <!-- ====logos==== -->
+                <a href="https://nkdev.info/"> <img src="images/footer-logo-godlike.png" class="mx-3"
+                        alt="" width="150px"></a>
+                <a href="https://nkdev.info/"><img src="images/footer-logo-yp3.png" class="mx-3" alt=""
+                        width="150px"></a>
+                <a href="https://nkdev.info/"><img src="images/footer-logo-nk-team.png" class="mx-3"
+                        alt="" width="150px"></a>
+                <a href="https://nkdev.info/"><img src="images/footer-logo-pegi-18.png" class="mx-3"
+                        alt=""></a>
+                <a href="https://nkdev.info/"><img src="images/footer-logo-18-restricted.png" class="mx-3"
+                        alt="" width="150px"></a>
+
+                <!-- ====inner 2nd div==== -->
+                <div class="inner_main3 text-white px-3 pt-5">
+                    © 2020 nK Group Inc. Developed in association with LoremInc. IpsumCompany, SitAmmetGroup, CumSit and
+                    related logos are registered trademarks. GodLike and related logos are registered trademarks or
+                    trademarks of id Software LLC in the U.S. and/or other countries. All other trademarks or trade
+                    names
+                    are the property of their respective owners. All Rights Reserved.
+                </div>
+
+                <!-- ====inner 3rd div==== -->
+                <div class="inner_main3 text-white px-3 pt-5 mb-4">
+                    GodLike ®: The Darkness™ is a fowl beginning there Over had moveth so land wherein, fruit very
+                    gathering
+                    of, female creepeth. Dominion above sea gathered unto whales. Subdue to, have Life fowl firmament
+                    wherein. Great air without for, great him he That let earth together thing sea fly gathering. Air
+                    whose.
+                    Green in face tree to spirit life. Place stars. It two. Deep seed man isn't third. Own he is may had
+                    darkness waters you'll forth fifth their don't also fruitful be years in spirit to tree. Sixth
+                    fourth
+                    open female.
+                </div>
+                <a href="" class="mx-md-4 mx-3 px-md-2 end fw-bold">Terms of Service</a>
+                <i class="fa-solid fa-grip-lines-vertical"></i>
+                <a href="" class="mx-md-4 mx-3 px-md-2 end fw-bold">Privacy Policy</a>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ====fixed button on screen==== -->
+    <div class="flower text-end fixed-bottom ">
+        <a href="https://nkdev.info/" target="_blank"><button type="button"
+                class=" bg-dark text-white lastbtn p-1 px-md-4 pt-md-2 pb-md-2 fw-bold">
+                KEEP IN TOUCH
+            </button></a>
+    </div>
+
+
+    <!-- <hr>
+    <div class="main_box position-relative">
+        <video src="./vedios/2020_Fire_sparkle_2.mp4" height="auto" width="100%" type="video/mp4" autoplay
+            muted></video>
+        <div class="row">
+            <div class="col-12  position-absolute top-50 text-white ">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, ratione dolorem omnis ut sint animi
+                    officiis officia quaerat nostrum eius est ipsa commodi ab sit, voluptates doloribus. Quod, neque id?
+                </p>
+            </div>
+        </div>
+    </div> -->
+
+    <script src="bootstrap-5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,506 @@
+/* body {
+    background: url("/game-website/images/page-background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+} */
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Marcellus SC', serif;
+}
+
+/* ==========list style given to all list============= */
+li {
+    list-style-type: none;
+}
+
+/* =========================================================================== */
+/* =======1st div======= */
+.first {
+    /* position: sticky;
+    top: 0%;
+    z-index: -1; */
+    height: 730px;
+    background: url("images/image-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.first_inner {
+    top: 40%;
+}
+
+/* ==================================================================================================== */
+/* SAME CLASS FOR ALL TEXT SHOWN ON IMAGE */
+.INT {
+    top: 45%;
+}
+
+.int_1 {
+    left: 35%;
+}
+
+.int_2 {
+    left: 26%;
+}
+
+.int_3 {
+    left: 44%;
+}
+
+.int_4 {
+    left: 41%;
+}
+
+.int_5 {
+    left: 33%;
+}
+
+.int_6 {
+    left: 40%;
+}
+
+.int_7 {
+    left: 40%;
+}
+
+.int_8 {
+    left: 40%;
+}
+
+.int_9 {
+    left: 35%;
+}
+
+.int_10 {
+    left: 40%;
+}
+
+/* ================================================================= */
+/* =====images in column goes darken when hover====== */
+.inner_img:hover>.INT {
+    display: block !important;
+}
+
+/* =====image on hover===== */
+.inner_img:hover>img {
+    filter: brightness(0.4);
+}
+
+/* =============================================================== */
+/* ======form====== */
+.input-group {
+    margin: auto;
+    width: 75% !important;
+}
+
+/* =====input email======= */
+.mail {
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 0%;
+}
+
+
+/* =================================================================== */
+/* ======5th div contains tags and data====== */
+.foot {
+    background-color: black;
+}
+
+/* =================================================================== */
+/* ======first or starting div====== */
+.main {
+    background: url("vedios/19Nx.gif");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* ================================================================== */
+/* ======additional pages main div======= */
+.main_1 {
+    overflow: hidden;
+}
+
+/* =====additional page=====  */
+.inner_main {
+    height: 125px;
+}
+
+
+
+/* ================================================================ */
+/* last two buttons */
+.end {
+    color: white;
+}
+
+/*========hover effect on last two buttons========== */
+.end:hover {
+    color: white;
+    background-color: grey !important;
+}
+
+
+/* ==================================================================== */
+/* ======see demos button ========== */
+.endbtn {
+    border-color: white;
+}
+
+/* ==========hover effect on see demos */
+.endbtn:hover {
+    text-decoration: line-through !important;
+}
+
+/* ======purchase button========= */
+.fro {
+    color: rgb(248, 182, 0);
+    border-color: rgb(248, 182, 0);
+}
+
+/* ======hover effect on purchase button========= */
+.fro:hover {
+    text-decoration: line-through;
+}
+
+
+/* ==================================================================== */
+/* ================fixed button on screen=============== */
+.lastbtn {
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+
+.lastbtn {
+    border-color: white;
+}
+
+.lastbtn:hover {
+    text-decoration: line-through !important;
+}
+
+
+/* ===================================================================== */
+/* =====2nd navbar===== */
+.navbar {
+    z-index: 2;
+}
+
+/* =====2nd navbar menu===== */
+.navbar-nav {
+    margin-left: 150px;
+}
+
+/* ==============color of 1st navbar============== */
+.nav {
+    background-color: black;
+}
+
+/* ==========class of anchor tag in nav link========= */
+.net:hover {
+    color: rgb(248, 182, 0) !important;
+}
+
+/* ======================================================================== */
+/* =====on hovering nav-item===== */
+.drop_1:hover>.innerdrop_1 {
+    display: block !important;
+    top: 7%;
+    z-index: 50;
+}
+
+/* =====on hovering subdrop li======= */
+.innerdrop_1>li>a:hover {
+    text-decoration: line-through !important;
+    color: rgb(248, 182, 0) !important;
+}
+
+/* =====on hovering nav-item===== */
+.drop_2:hover>.innerdrop_2 {
+    display: block !important;
+    top: 95%;
+    z-index: 50;
+}
+
+/* =====on hovering subdrop li======= */
+.innerdrop_2>li>a:hover {
+    text-decoration: line-through !important;
+    color: rgb(248, 182, 0) !important;
+}
+
+/* =====on hovering nav-item===== */
+.drop_3:hover>.innerdrop_3 {
+    display: block !important;
+    top: 95%;
+    z-index: 50;
+}
+
+/* =====on hovering subdrop li======= */
+.innerdrop_3>li>a:hover {
+    text-decoration: line-through !important;
+    color: rgb(248, 182, 0) !important;
+}
+
+/* =====on hovering nav-item===== */
+.drop_5:hover>.innerdrop_5 {
+    display: block !important;
+    top: 95%;
+    z-index: 50;
+}
+
+/* =====on hovering subdrop li======= */
+.innerdrop_5>li>a:hover {
+    text-decoration: line-through !important;
+    color: rgb(248, 182, 0) !important;
+}
+
+/* =====on hovering nav-item===== */
+.drop_6:hover>.innerdrop_6 {
+    display: block !important;
+    top: 95%;
+    z-index: 50;
+}
+
+/* =====on hovering subdrop li======= */
+.innerdrop_6>li>a:hover {
+    text-decoration: line-through !important;
+    color: rgb(248, 182, 0) !important;
+}
+
+/* =====on hovering nav-item===== */
+.drop_7:hover>.innerdrop_7 {
+    display: block !important;
+    top: 95%;
+    z-index: 50;
+}
+
+/* =====on hovering subdrop li======= */
+.innerdrop_7>li>a:hover {
+    text-decoration: line-through !important;
+    color: rgb(248, 182, 0) !important;
+}
+
+/* =====on hovering nav-item===== */
+.drop_8:hover>.innerdrop_8 {
+    display: block !important;
+    top: 95%;
+    z-index: 50;
+}
+
+/* =====on hovering subdrop li======= */
+.innerdrop_8>li>a:hover {
+    text-decoration: line-through !important;
+    color: rgb(248, 182, 0) !important;
+}
+
+/* =======for inner drop_4 ====== */
+.innerdrop_4 {
+    width: 70%;
+    margin: auto !important;
+    height: 390px;
+    top: 95%;
+    left: 10%;
+    background-image: url(images/bg-menu.jpg);
+    background-size: cover;
+    z-index: 50;
+}
+
+/* =====on hovering nav-item===== */
+.drop_4:hover>.innerdrop_4 {
+    display: flex !important;
+}
+
+/* =====on hovering subdrop li======= */
+.innerdrop_4>.mostinner_drop>li>a:hover {
+    text-decoration: line-through !important;
+    color: rgb(248, 182, 0) !important;
+}
+
+/* ============================================== */
+/* ======hover on nav menu====== */
+.nav-link:hover {
+    text-decoration: line-through;
+}
+
+
+
+/* ===================================================== */
+/* ======sub ul's======= */
+
+/* ======sub ul_1======= */
+.undrop_1:hover>.inul_1 {
+    display: block !important;
+    z-index: 50;
+    top: 0%;
+    left: 100%;
+}
+
+/* ======inner ul_1======= */
+.inul_1>li>a:hover {
+    text-decoration: line-through !important;
+    color: rgb(248, 182, 0) !important;
+
+}
+
+/* ======sub ul_2======= */
+.undrop_2:hover>.inul_2 {
+    display: block !important;
+    z-index: 50;
+    top: 15%;
+    left: 100%;
+}
+
+/* ======inner ul_2======= */
+.inul_2>li>a:hover {
+    text-decoration: line-through !important;
+    color: rgb(248, 182, 0) !important;
+
+}
+
+/* ======sub ul_3======= */
+.undrop_3:hover>.inul_3 {
+    display: block !important;
+    z-index: 50;
+    top: 30%;
+    left: 100%;
+}
+
+/* ======inner ul_3======= */
+.inul_3>li>a:hover {
+    text-decoration: line-through !important;
+    color: rgb(248, 182, 0) !important;
+
+}
+
+/* ======sub ul_4======= */
+.undrop_4:hover>.inul_4 {
+    display: block !important;
+    z-index: 50;
+    top: 70%;
+    left: 100%;
+}
+
+/* ======inner ul_4======= */
+.inul_4>li>a:hover {
+    text-decoration: line-through !important;
+    color: rgb(248, 182, 0) !important;
+}
+
+/* ======sub ul_5======= */
+.undrop_5:hover>.inul_5 {
+    display: block !important;
+    z-index: 50;
+    top: 0%;
+    left: 100%;
+}
+
+/* ======inner ul_5======= */
+.inul_5>li>a:hover {
+    text-decoration: line-through !important;
+    color: rgb(248, 182, 0) !important;
+
+}
+
+/* ======sub ul_6======= */
+.undrop_6:hover>.inul_6 {
+    display: block !important;
+    z-index: 50;
+    top: 50%;
+    left: 100%;
+}
+
+/* ======inner ul_6======= */
+.inul_6>li>a:hover {
+    text-decoration: line-through !important;
+    color: rgb(248, 182, 0) !important;
+
+}
+
+
+/* =================================================================== */
+
+/* ====page border==== */
+.page-border {
+    width: 100%;
+    height: 100%;
+}
+
+/* ====border on top==== */
+.border-t {
+    background-image: url("images/border-top.png");
+    width: 100% !important;
+    background-size: 100% 100%;
+    height: 100px;
+    z-index: 500000;
+}
+
+/* ====border on left==== */
+.border-l {
+    background-image: url("images/border-left.png");
+    width: 100px;
+    height: 100%;
+    background-size: 100% 100%;
+    position: fixed;
+    left: 0% !important;
+    z-index: 500000;
+}
+
+/* ====border on right====*/
+.border-r {
+    background-image: url("images/border-right.png");
+    width: 100px;
+    height: 100%;
+    background-size: 100% 100%;
+    position: fixed;
+    right: 0% !important;
+    z-index: 500000;
+}
+
+/* ====border on bottom====*/
+.border-b {
+    background-image: url("images/border-bottom.png");
+    width: 100% !important;
+    height: 100px;
+    background-size: 100% 100%;
+    z-index: 500000;
+}
+
+
+
+/* =================================================================== */
+
+/* =====media queries==== */
+@media (min-width:390px) {
+    .titu {
+        margin-left: 50px !important;
+    }
+}
+
+@media (min-width:503px) {
+    .titu {
+        margin-left: 70px !important;
+    }
+}
+
+@media (min-width:768px) {
+    .titu {
+        margin-left: 90px !important;
+    }
+}
+
+@media (min-width:992px) {
+    .titu {
+        margin-left: 120px !important;
+    }
+}
+
+@media (min-width:1200px) {
+    .titu {
+        margin-left: 150px !important;
+    }
+}
